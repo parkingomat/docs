@@ -1,7 +1,10 @@
-## Dokumentacja dombot
+# Dokumentacja dombot
 
-Struktura projektu:
-+ Modul Core
+## Struktura projektu:
+
+### Modul Core
+Podstawowe mouduly niezbedne do dzialania platformy
+
   + konfiguracja
   + autoryzacja
     + dane usera do logowania
@@ -11,17 +14,25 @@ Struktura projektu:
       + modulow
       + aplikacji
       + api
-+ Moduly wewnetrzne uzytkownika
+ 
+### Moduly wewnetrzne uzytkownika
+Moduly dystrybuowane przez producenta platformy dombot
+
   + zdarzenia, actions, events
   + role poziomu dostepu uzytkownika dla kazdej akcji
   
-+ Moduly zewnetrzne spolecznosci, marketplace
+### Moduly zewnetrzne spolecznosci
+Marketplace, platne i darmowe aplikacje dedykowane dla dombot pisane przez zewnetrznych tworcow oraz providerow uslug
+
   + Aplikacja
     + konfiguracja
     + funkcje
       + parametry
       + rezultat
-  + API
+      
+### API      
+uslugi dostepne poprzez API
+
     + autoryzacja
     + konfiguracja
     + funkcje
