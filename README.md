@@ -2,6 +2,19 @@
 
 ## Struktura projektu:
 
+### Konfiguracja
+kazdy modul udostepnia wlasne akcje, zdarzenia i konfiguracje,
+ktore w sekcji konfiguracja mozna edytowac
+np zewnetrzne uslugi wymagaja autoryzacji, ktora tutaj mozna zdefiniowac
+Wszystkie dane konfiguracji docelowo beda szyfrowane metoda keepass w lokalnym pliku
+
+https://pypi.org/project/pykeepass/
+
+### Dane 
+Dane przechowywane jako rezultaty funkcji modulow, aplikacji, api beda zapisane w bazie danych sqlite lokalnie
+
+
+
 ### Modul Core
 Podstawowe moduly niezbedne do dzialania platformy
 
@@ -40,8 +53,6 @@ uslugi dostepne poprzez API
     + rezultat
 
 ## Funkcjonalności dla zalogowanych użytkowników
-
-### Konfiguracja
 
 
 ### Dashboard
