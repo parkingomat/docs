@@ -3,7 +3,7 @@
 ## Struktura projektu:
 
 ### Modul Core
-Podstawowe mouduly niezbedne do dzialania platformy
+Podstawowe moduly niezbedne do dzialania platformy
 
   + konfiguracja
   + autoryzacja
