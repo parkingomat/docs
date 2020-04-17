@@ -1,5 +1,5 @@
 # Dokumentacja dombot
-http://docs.dombot.pl/
+[http://docs.dombot.pl/](http://docs.dombot.pl/)
 
 ## Struktura projektu:
 
@@ -9,7 +9,7 @@ ktore w sekcji konfiguracja mozna edytowac
 np zewnetrzne uslugi wymagaja autoryzacji, ktora tutaj mozna zdefiniowac
 Wszystkie dane konfiguracji docelowo beda szyfrowane metoda keepass w lokalnym pliku
 
-https://pypi.org/project/pykeepass/
+[https://pypi.org/project/pykeepass/](https://pypi.org/project/pykeepass/)
 
 ### Dane 
 Dane przechowywane jako rezultaty funkcji modulow, aplikacji, api beda zapisane w bazie danych sqlite lokalnie
