@@ -33,11 +33,11 @@ Marketplace, platne i darmowe aplikacje dedykowane dla dombot pisane przez zewne
 ### API      
 uslugi dostepne poprzez API
 
-    + autoryzacja
-    + konfiguracja
-    + funkcje
-      + parametry
-      + rezultat
+  + autoryzacja
+  + konfiguracja
+  + funkcje
+    + parametry
+    + rezultat
 
 ## Funkcjonalności dla zalogowanych użytkowników
 
