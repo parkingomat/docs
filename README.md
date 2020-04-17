@@ -1,8 +1,44 @@
 ## Dokumentacja dombot
 
-## Funckjonalności dla zalogowanych użytkowników
+Struktura projektu:
++ Modul Core
+  + konfiguracja
+  + autoryzacja
+    + dane usera do logowania
+    + rola w systemie
+  + dashboard
+    + lista 
+      + modulow
+      + aplikacji
+      + api
++ Moduly wewnetrzne uzytkownika
+  + zdarzenia, actions, events
+  + role poziomu dostepu uzytkownika dla kazdej akcji
+  
++ Moduly zewnetrzne spolecznosci, marketplace
+  + Aplikacja
+    + konfiguracja
+    + funkcje
+      + parametry
+      + rezultat
+  + API
+    + autoryzacja
+    + konfiguracja
+    + funkcje
+      + parametry
+      + rezultat
 
-### Analizowanie
+## Funkcjonalności dla zalogowanych użytkowników
+
+### Konfiguracja
+
+
+### Dashboard
++ dodawanie modulow systemu z listy
++ dodawanie Api i Aplikacji zewnetrznych
+
+
+### Modul: Analizowanie
 + dodaj nazwe glowna
 + dodaj nazwy pokrewne do porownania
 + tabela porownawcza
@@ -11,7 +47,7 @@
     ...
     
 
-### Monitorowanie domen
+### Modul: Monitorowanie domen
 + funkcja dodaj domenę
 + lista
   + nazwa
@@ -24,7 +60,7 @@
     + usuń domenę z listy    
     + ustaw kod AuthInfo
     
-### Zarządzanie (Posiadane Domeny)
+### Modul: Zarządzanie (Posiadane Domeny)
 + funkcja dodaj domenę
 + lista
   + nazwa
@@ -42,7 +78,7 @@
     
     
 
-## Rejestratorzy
+## Modul: Rejestratorzy
 + operacje a liscie (checkbuttons):
   + porównaj ceny 
     + rejestracji
@@ -58,7 +94,7 @@
     + usuń rejestratora
     + kontakt
 
-## Usługodawcy 
+## Modul: Usługodawcy 
 
 + lista
   + konto użytkownika
@@ -66,7 +102,7 @@
     + hosting, vps, ..
 
 
-## Serwery DNS
+## Modul: Serwery DNS
 + funkcja dodaj serwer
   + lista
     + nazwa operatora
@@ -76,7 +112,7 @@
       + edytuj
       
       
-## Aplikacje otwartozrodlowe opensource
+## Modul: Aplikacje otwartozrodlowe opensource
 + lista
   + url
     + repozytorium
@@ -84,12 +120,12 @@
     + logo
 
 
-## Aplikacje platne z autoryzowanym dostepem
+## Modul: Aplikacje platne z autoryzowanym dostepem
 + lista
   + nazwa
 
 
-## Dostep do uslugi API, publicznych, otwartych
+## Modul: Dostep do uslugi API, publicznych, otwartych
 np wyszukiwarki, whois, itd
 + lista
   + nazwa
@@ -101,7 +137,7 @@ np wyszukiwarki, whois, itd
     + logo
 
 
-## Dostep do uslugi API, platnych, autoryzowanych
+## Modul: Dostep do uslugi API, platnych, autoryzowanych
 + lista
   + nazwa
   + url 
@@ -111,7 +147,8 @@ np wyszukiwarki, whois, itd
     + endpoint
     + logo
 
-## Planowanie
+## Modul: Planowanie
+okreslenie w czasie operacji, planowanie zdarzen kaskadowo
 + Rejestracja
 + Przedłużanie
 + Przechwytywanie
