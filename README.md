@@ -2,6 +2,15 @@
 
 ## Funckjonalności dla zalogowanych użytkowników
 
+### Analizowanie
++ dodaj nazwe glowna
++ dodaj nazwy pokrewne do porownania
++ tabela porownawcza
+  +  dodaj usluge, ktora oferuje parametry
+    + np. ilosc wynikow w wyszukiwarce
+    ...
+    
+
 ### Monitorowanie domen
 + funkcja dodaj domenę
 + lista
@@ -67,11 +76,40 @@
       + edytuj
       
       
-## Aplikacje (opensource)
+## Aplikacje otwartozrodlowe opensource
 + lista
-  + repozytorium
-  + readme
-  + img
+  + url
+    + repozytorium
+    + readme
+    + logo
+
+
+## Aplikacje platne z autoryzowanym dostepem
++ lista
+  + nazwa
+
+
+## Dostep do uslugi API, publicznych, otwartych
+np wyszukiwarki, whois, itd
++ lista
+  + nazwa
+  + limit zapytan 
+    + jak w CRON, na godzine,minute, dzien, ..
+  + url 
+    + dokumentacja
+    + endpoint
+    + logo
+
+
+## Dostep do uslugi API, platnych, autoryzowanych
++ lista
+  + nazwa
+  + url 
+    + dokumentacja
+    + oferta
+    + licencja
+    + endpoint
+    + logo
 
 ## Planowanie
 + Rejestracja
