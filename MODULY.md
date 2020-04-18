@@ -1,3 +1,5 @@
+## Moduly z marketplace
+Funkcjonalności dla zalogowanych użytkowników
 
 ### Modul: Analizowanie
 + dodaj nazwe glowna
