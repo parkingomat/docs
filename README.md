@@ -13,6 +13,38 @@ Wszystkie dane konfiguracji docelowo beda szyfrowane metoda keepass w lokalnym p
 
 ### Dane 
 Dane przechowywane jako rezultaty funkcji modulow, aplikacji, api beda zapisane w bazie danych sqlite lokalnie
+w celu ustandaryzowania beda okreslane typy danych, aby mozliwe bylo latwe tworzenie nowych funkcjonalnosci w oparciu
+o juz istniejace rozwiazania
+
+np typ danych:
+  + kolejka zadan
+  + zdarzenie w kalendarzu
+    +event:
+      + planowanie
+      + trwanie
+      + zakonczenie
+    + config:
+      + zakres dat
+        + start
+        + stop
+
+  + domena internetowa
+  
+    + zdarzenia czasowe, cykl zycia domeny
+      + wygasniecie
+      + usuniecie
+      
+    + zdarzenia kontrolowane
+      + rejestracja
+      + przedluzenie waznosci
+      + zmiana danych
+      + transfer 
+        + do innego operatora z tymi samymi danymi
+        + do innego operatora + zmiana danych
+      + po wygasnieciu
+      + na zadanie
+  
+Zdarzenia dla kazdego typu danych
 
 ## Moduly
 Podstawowe moduly Core niezbedne do dzialania platformy:
@@ -27,8 +59,20 @@ Podstawowe moduly Core niezbedne do dzialania platformy:
       + modulow
       + aplikacji
       + api
-      
+     
+### Modul Core: kalendarz, planowanie zadan
+w celu okreslenia czasu lub zakresu dat wszelkich zdarzen mozna uzyc wewnetrznej bazy danych sqlite
+Pozniej mozliwy bedzie eksport do innych formatow, czy synchronizacja z innymi platformami dla terminow
+
+### Modul Core: kolejka zadan, queue
+mozliwa do reuzycia w przypadku innych aplikacji czy api
+pozwala na globalne zarzadzanie kolejkami zadan do wykonania
+
 ### Modul Core: konfiguracja
+sluzy do zapisywania danych sytemowych, usera, modulow, api
++ zasoby
+  + w przypadku VPS
+  
 + wyglad 
   + template
     + mode: white/black
