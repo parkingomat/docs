@@ -14,13 +14,12 @@ Wszystkie dane konfiguracji docelowo beda szyfrowane metoda keepass w lokalnym p
 ### Dane 
 Dane przechowywane jako rezultaty funkcji modulow, aplikacji, api beda zapisane w bazie danych sqlite lokalnie
 
-
-
-### Modul Core
-Podstawowe moduly niezbedne do dzialania platformy
+## Moduly
+Podstawowe moduly Core niezbedne do dzialania platformy:
 
   + konfiguracja
   + autoryzacja
+  + profile
     + dane usera do logowania
     + rola w systemie
   + dashboard
@@ -28,12 +27,29 @@ Podstawowe moduly niezbedne do dzialania platformy
       + modulow
       + aplikacji
       + api
- 
+      
+### Modul Core: konfiguracja
++ wyglad 
+  + template
+    + mode: white/black
+
+### Modul Core: profile/customers
+w celu umozliwienia zarzadzania roznymi danymi w granicach jednego konta
+jest mozliwe wykorzystanie wielu profili, np dla klientow koncowych, przy obsluge klientow, dzialalnosci miedzynarodowej,
+struktura reseller
++ dane usera dla rejestracji domen
++ dane dla rozliczen 
++ rola
+
+### Modul Core: Dashboard
++ dodawanie modulow systemu z listy
++ dodawanie Api i Aplikacji zewnetrznych
+
 ### Moduly wewnetrzne uzytkownika
 Moduly dystrybuowane przez producenta platformy dombot
 
-  + zdarzenia, actions, events
-  + role poziomu dostepu uzytkownika dla kazdej akcji
++ zdarzenia, actions, events
++ role poziomu dostepu uzytkownika dla kazdej akcji
   
 ### Moduly zewnetrzne spolecznosci
 Marketplace, platne i darmowe aplikacje dedykowane dla dombot pisane przez zewnetrznych tworcow oraz providerow uslug
@@ -44,22 +60,18 @@ Marketplace, platne i darmowe aplikacje dedykowane dla dombot pisane przez zewne
       + parametry
       + rezultat
       
-### API      
+### API dombot, dostepne na zewnatrz      
 uslugi dostepne poprzez API
 
   + autoryzacja
   + konfiguracja
+  + planowanie
   + funkcje
     + parametry
     + rezultat
 
+
 ## Funkcjonalności dla zalogowanych użytkowników
-
-
-### Dashboard
-+ dodawanie modulow systemu z listy
-+ dodawanie Api i Aplikacji zewnetrznych
-
 
 ### Modul: Analizowanie
 + dodaj nazwe glowna
@@ -101,7 +113,7 @@ uslugi dostepne poprzez API
     
     
 
-## Modul: Rejestratorzy
+### Modul: Rejestratorzy
 + operacje a liscie (checkbuttons):
   + porównaj ceny 
     + rejestracji
@@ -117,7 +129,7 @@ uslugi dostepne poprzez API
     + usuń rejestratora
     + kontakt
 
-## Modul: Usługodawcy 
+### Modul: Usługodawcy 
 
 + lista
   + konto użytkownika
@@ -125,7 +137,7 @@ uslugi dostepne poprzez API
     + hosting, vps, ..
 
 
-## Modul: Serwery DNS
+### Modul: Serwery DNS
 + funkcja dodaj serwer
   + lista
     + nazwa operatora
@@ -135,7 +147,7 @@ uslugi dostepne poprzez API
       + edytuj
       
       
-## Modul: Aplikacje otwartozrodlowe opensource
+### Modul: Aplikacje otwartozrodlowe opensource
 + lista
   + url
     + repozytorium
@@ -143,12 +155,12 @@ uslugi dostepne poprzez API
     + logo
 
 
-## Modul: Aplikacje platne z autoryzowanym dostepem
+### Modul: Aplikacje platne z autoryzowanym dostepem
 + lista
   + nazwa
 
 
-## Modul: Dostep do uslugi API, publicznych, otwartych
+### Modul: Dostep do uslugi API, publicznych, otwartych
 np wyszukiwarki, whois, itd
 + lista
   + nazwa
@@ -160,7 +172,7 @@ np wyszukiwarki, whois, itd
     + logo
 
 
-## Modul: Dostep do uslugi API, platnych, autoryzowanych
+### Modul: Dostep do uslugi API, platnych, autoryzowanych
 + lista
   + nazwa
   + url 
@@ -170,7 +182,7 @@ np wyszukiwarki, whois, itd
     + endpoint
     + logo
 
-## Modul: Planowanie
+### Modul: Planowanie
 okreslenie w czasie operacji, planowanie zdarzen kaskadowo
 + Rejestracja
 + Przedłużanie
