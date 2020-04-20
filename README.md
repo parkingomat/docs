@@ -6,6 +6,8 @@
 
 + [Dostep API](https://api.dombot.pl/)
 
++ [Logo](https://logo.dombot.pl/)
+
 
 ## Struktura projektu:
 
