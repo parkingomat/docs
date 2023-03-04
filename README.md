@@ -19,6 +19,37 @@ Wszystkie dane konfiguracji docelowo beda szyfrowane metoda keepass w lokalnym p
 
 [https://pypi.org/project/pykeepass/](https://pypi.org/project/pykeepass/)
 
+## Oferta
+
+ Stale zdarzają się, że sytuacje niedopatrzenia odnośnie zarządzania domenami internetowymi, dlatego domeny regularnie "spadają", potem "spekulant" je kupuje i odsprzedaję ... koszt domeny i jej utrzymania jest na tyle niski, że wielu ludzi zapomina o nich, bo to wydarzenia zbyt rzadkie, raz do roku. Dlatego proponuję rozwiązanie, asystenta do spraw domen, na wzór [#ChatuGPT](https://www.openai.com), który mając dostęp do providerów domen i usług sam wykona:  
+> 1\. Zmianę konfiguracji DNS  
+> 2\. Przedłuży domenę internetową  
+> 3\. Utworzy certyfikat  
+> 4\. Przeniesie domeny pomiędzy providerami  
+> 5\. Przniesie serwis pomiędzy wybranymi providerami  
+> 6\. Stworzy ofertę sprzedaży domeny  
+> pomagając kompleksowo tak jak administrator sieci.  
+> Usługa będzie bezpłatna, dostepna w ramach systemu operacyjnego [#PoLoGoS](https://www.pologos.com) a jedynym kosztem będzie uruchomienie tego systemu w ramach własnej infrastruktury, za instalację Cloud na VPS będę pobierał opłatę, pytanie jaki koszt systemu do automatyzacji zarządzania setkami i tysiącami usług opartych o własną infrastrukturę będzie uzasadniony?  
+
+
+
+
+Usluga jednorazowa jest nie pewna dla kupca z 2 przycznym nie wie czy sprzedający usługę będzie wspierał dalej usługę
+Ale pojawia sie inny problem czyli zaufanie w kierunku z pewnością konieczności mostka w logowaniu do operatora.
+Wielkość uslug zmian jest zabezpieczona dodatkowym kodem np sms, ljb autoryzacja wielopoziomowa.
+
+
+przy opcji #lifetime #ondemand kod platformy mamy u siebie, więc też odpowiadamy za bezpieczeństwo, konieczna jest samodzielna instalacja na RPI ZERO W i wpiąć w hub USB
+
+
+## MODEL BIZNESOWY
+
+niszczące dla niezmieniającego się biznesu z pewnością, bo logiczne jest, że w gronie klientów znajdzie się konkurencja, która będzie się starała tak pozyskany kod wykorzystać by poszerzyć grono swoich klientów. chatGPT też można stworzyć na podstawie już istniejących rozwiązań ale najwięcej kosztuje uczenie modelu i tutaj jest podobnie, bo logikę, którą udostępnimy w wersji lifetime będzie ulegała poprawie i pomijajac łatki bezpieczeństwa, uzyskanie aktualizacji funkcjonalności będzie wymagało subsrkypcji, bo taki model gwarantuje długofalowe wsparcie i opłacalnoś modelu biznesowego dla obu stron.
+
+
+
+
+
 ### Dane 
 Dane przechowywane jako rezultaty funkcji modulow, aplikacji, api beda zapisane w bazie danych sqlite lokalnie
 w celu ustandaryzowania beda okreslane typy danych, aby mozliwe bylo latwe tworzenie nowych funkcjonalnosci w oparciu
