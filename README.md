@@ -8,7 +8,8 @@
 
 + [Logo](https://logo.dombot.pl/)
 
-![pendrive-rpi_zero](https://user-images.githubusercontent.com/5669657/222894982-6ace0a0e-4cbc-42f3-835d-2e64dcf4261d.jpg)
+
+![Screenshot from 2023-03-04 11-37-03](https://user-images.githubusercontent.com/5669657/222895327-80b37102-5dbf-4111-adb9-1a02920a9db1.png)
 
 
 ## Struktura projektu:
